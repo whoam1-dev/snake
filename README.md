@@ -20,10 +20,10 @@ Download the snake file and make it executable with `chmod +x snake`.
 
 ### Build
 Clone this repo or download the snake.asm file and build it using nasm:
-´´´
+```
 nasm -f elf64 snake.asm -o snake.o
 ld snake.o -o snake
-´´´
+```
 
 ## Notes
 I'm not against using in coding, so I used ai to debug and find errors when I couldn't find them, but the code was completly self-written and is my first assembly project.
